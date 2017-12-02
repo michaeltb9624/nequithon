@@ -23,9 +23,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
         cursiva=Typeface.createFromAsset(getAssets(),"fonts/avenirnextltprodemiIt.otf");
         bold=Typeface.createFromAsset(getAssets(),"fonts/avenirnextltprobold.otf");
         titulo = (TextView) findViewById(R.id.titulo);
@@ -40,6 +37,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplication() ,Primer_Nivel.class );
+                startActivity(intent);
+            }
+        });
+
+        conocer_mas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplication(), ConoceSavy.class);
                 startActivity(intent);
             }
         });

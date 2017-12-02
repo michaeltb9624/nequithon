@@ -22,6 +22,10 @@
         <activity
             android:name=".Primer_Nivel"
             android:label="@string/title_activity_primer__nivel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConoceSavy"
+            android:label="@string/title_activity_conoce_savy"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

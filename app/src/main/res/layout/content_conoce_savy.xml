@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="grimorum.nequithon.ConoceSavy"
+    tools:showIn="@layout/activity_conoce_savy">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="GUIA SAVY"
+        android:padding="30dp"
+        android:background="#ff2f73"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "1 - Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+        android:background="#a2b0b7"
+        android:textColor="#ff2f73"
+        android:layout_margin="10dp"
+    />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "1 - Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+            android:background="#a2b0b7"
+            android:textColor="#ff2f73"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "1 - Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+            android:background="#a2b0b7"
+            android:textColor="#ff2f73"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ACEPTO EL RETO"
+            android:background="#ff2f73"
+            android:textColor="#fff"
+            android:id="@+id/aceptoReto"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
