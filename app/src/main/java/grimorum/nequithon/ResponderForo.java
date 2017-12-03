@@ -1,5 +1,7 @@
 package grimorum.nequithon;
 
+import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,11 +15,14 @@ import android.widget.Toast;
 public class ResponderForo extends AppCompatActivity {
     Button respondePre;
     EditText respuesta;
+    Typeface bold,regular;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_responder_foro);
+        bold= Typeface.createFromAsset(getAssets(),"fonts/avenirnextltprobold.otf");
+        regular=Typeface.createFromAsset(getAssets(),"fonts/avenirnextltproregular.otf");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         respondePre = findViewById(R.id.responderPre);
@@ -30,7 +35,8 @@ public class ResponderForo extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Debes contestar algo para poder enviar tu respuesta", Toast.LENGTH_LONG).show();
 
                 }else {
-                    Toast.makeText(getApplicationContext(), "Gracias por responder, has ganado un logro, vas por buen camino", Toast.LENGTH_LONG).show();
+                    Intent i = new Intent(getApplicationContext() , Gana20xp.class);
+                    startActivity(i);
                     finish();
                 }
             }

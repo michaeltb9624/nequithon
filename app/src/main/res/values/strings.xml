@@ -10,4 +10,8 @@
     <string name="title_activity_menu">Menu</string>
     <string name="title_activity_menu_prin">MenuPrin</string>
     <string name="title_activity_retos">Retos</string>
+    <string name="title_activity_gana20xp">Gana20xp</string>
+    <string name="title_activity_act_pesitos">ActPesitos</string>
+    <string name="title_activity_gana30xp">Gana30xp</string>
+    <string name="title_activity_foro">Foro</string>
 </resources>

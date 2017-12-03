@@ -6,14 +6,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:padding="16dp"
     android:orientation="vertical"
-    tools:context="grimorum.nequithon.Foro">
+    tools:context="grimorum.nequithon.Foro"
+    android:background="@drawable/fondo_retos">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="FORO NEQUI"
+        android:id="@+id/tituloforo"
         android:textSize="30dp"
+        android:layout_marginTop="40dp"
         android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ff2f73"
+
         ></TextView>
 
 
@@ -22,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_margin="20dp"
-        card_view:cardBackgroundColor="#DFDAD9">
+        card_view:cardBackgroundColor="#210049">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -37,7 +43,8 @@
                 android:layout_alignParentTop="true"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="¿Amigos nequinos porque creen que deberia ahorra con nequi?"
+                android:textColor="#fff"
+                android:text="¿Como invitar a una persona para inciar una meta colaborativa?"
                 android:textSize="15dp" />
 
             <TextView
@@ -45,7 +52,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/pregunta"
-                android:text="0 Respuestas" />
+                android:text="0 Respuestas"
+
+                android:textColor="#fff"/>
 
 
             <Button
@@ -57,6 +66,7 @@
                 android:layout_below="@+id/person_age"
                 android:layout_gravity="bottom|right"
                 android:background="#E91E63"
+                android:textColor="#fff"
                 android:text="Responder"
 
                 android:textSize="10dp" />
@@ -69,7 +79,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_margin="20dp"
-        card_view:cardBackgroundColor="#DFDAD9">
+        card_view:cardBackgroundColor="#210049">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -84,19 +94,21 @@
                 android:layout_alignParentTop="true"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="¿Amigos nequinos porque creen que deberia ahorra con nequi?"
-                android:textSize="15dp" />
+                android:text="¿Que hago si tengo un comercio interesado en convertirse en corresponsal de nequi?"
+                android:textSize="15dp"
+                android:textColor="#fff"/>
 
             <TextView
                 android:id="@+id/card2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/person_name"
-                android:text="0 Respuestas" />
+                android:text="0 Respuestas"
+                android:textColor="#fff"/>
 
 
             <Button
-                android:id="@+id/vermasMensajes"
+                android:id="@+id/responder2"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_alignParentLeft="true"
@@ -105,6 +117,7 @@
                 android:layout_gravity="bottom|right"
                 android:background="#E91E63"
                 android:text="Responder"
+                android:textColor="#fff"
 
                 android:textSize="10dp" />
         </RelativeLayout>

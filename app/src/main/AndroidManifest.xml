@@ -49,7 +49,6 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".Foro" />
         <activity
             android:name=".ResponderForo"
             android:label="Responder Foro"
@@ -69,6 +68,22 @@
         <activity
             android:name=".Retos"
             android:label="@string/title_activity_retos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gana20xp"
+            android:label="@string/title_activity_gana20xp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActPesitos"
+            android:label="@string/title_activity_act_pesitos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gana30xp"
+            android:label="@string/title_activity_gana30xp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Foro"
+            android:label="@string/title_activity_foro"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

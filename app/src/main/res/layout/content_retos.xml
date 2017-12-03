@@ -8,305 +8,217 @@
     tools:context="grimorum.nequithon.Retos"
     tools:showIn="@layout/activity_retos"
     android:background="@drawable/fondo_retos">
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="486dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteY="81dp"
-        tools:ignore="MissingConstraints">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:drawableLeft="@drawable/hongo"
-            android:text="    YO SOLITO PUEDO"
-            android:textColor="#210049" />
-
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp">
         <LinearLayout
-            android:padding="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/borde_redondo_blanco"
-                android:padding="15dp"
-
-                android:text="Activa mis pesistos" />
-            <Button
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/cargando"
+                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="?"
-                android:background="@drawable/borde_redondo_blanco"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="30dp"
-                android:enabled="false"/>
-
-        </LinearLayout>
-        <LinearLayout
-            android:padding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
+                android:src="@drawable/c10"
+                android:layout_gravity="right"/>
 
             <TextView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/borde_redondo_blanco"
-                android:padding="15dp"
-
-                android:text="fasfsafafas" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="?"
-                android:background="@drawable/borde_redondo_blanco"/>
-            <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:text="LISTA DE RETOS"
+                android:gravity="center"
+                android:id="@+id/listaretos"
                 android:textSize="30dp"
-                android:enabled="false"/>
+                android:textStyle="bold"
+                android:textColor="#ff2f73"></TextView>
 
-        </LinearLayout>
-        <LinearLayout
-            android:padding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/borde_redondo_blanco"
-                android:padding="15dp"
-
-                android:text="cxvcbndfghgf" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="?"
-                android:background="@drawable/borde_redondo_blanco"/>
-            <CheckBox
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="30dp"
-                android:enabled="false"/>
+                android:layout_height="486dp"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteY="81dp"
+                tools:ignore="MissingConstraints">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawableLeft="@drawable/hongo"
+                    android:text="    YO SOLITO PUEDO"
+                    android:id="@+id/yosolito"
+                    android:textColor="#210049" />
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/solo1"
+                        android:background="@drawable/borde_redondo_blanco"
+                        android:padding="15dp"
+
+                        android:text="Utiliza Recargas - 10 XP" />
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:text="?"
+
+                        android:background="@drawable/borde_redondo_blanco"/>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30dp"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/solo2"
+                        android:background="@drawable/borde_redondo_blanco"
+                        android:padding="15dp"
+
+                        android:text="Crear un bolsillo - 20 XP" />
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:text="?"
+                        android:background="@drawable/borde_redondo_blanco"/>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30dp"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/borde_redondo_blanco"
+                        android:padding="15dp"
+
+                        android:id="@+id/pesitosText"
+                        android:text="Activar mis pesitos - 30 XP" />
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:text="?"
+                        android:id="@+id/pesitosButton"
+                        android:background="@drawable/borde_redondo_blanco"/>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30dp"
+                        android:id="@+id/pesitosCheck"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/clan"
+                    android:drawableLeft="@drawable/clan"
+                    android:text="    APORTA AL CLAN"
+                    android:textColor="#210049" />
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/acceso_a_contactos"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/borde_redondo_blanco"
+                        android:padding="15dp"
+
+                        android:text="Acceso a contactos - 20XP" />
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:text="?"
+                        android:background="@drawable/borde_redondo_blanco"/>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30dp"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/borde_redondo_blanco"
+                        android:padding="15dp"
+                        android:id="@+id/forotext"
+                        android:text="Participar en el foro- 20 XP"
+                       />
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:text="?"
+                        android:id="@+id/buttonforo"
+
+                        android:background="@drawable/borde_redondo_blanco"/>
+                    <CheckBox
+                        android:id="@+id/checkForo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30dp"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="486dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteY="81dp"
-        tools:ignore="MissingConstraints">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:drawableLeft="@drawable/hongo"
-            android:text="    YO SOLITO PUEDO"
-            android:textColor="#210049" />
-
-        <LinearLayout
-            android:padding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/borde_redondo_blanco"
-                android:padding="15dp"
-
-                android:text="fasfsafafas" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="?"
-                android:background="@drawable/borde_redondo_blanco"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="30dp"
-                android:enabled="false"/>
-
-        </LinearLayout>
-        <LinearLayout
-            android:padding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/borde_redondo_blanco"
-                android:padding="15dp"
-
-                android:text="fasfsafafas" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="?"
-                android:background="@drawable/borde_redondo_blanco"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="30dp"
-                android:enabled="false"/>
-
-        </LinearLayout>
-        <LinearLayout
-            android:padding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/borde_redondo_blanco"
-                android:padding="15dp"
-
-                android:text="fasfsafafas" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="?"
-                android:background="@drawable/borde_redondo_blanco"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="30dp"
-                android:enabled="false"/>
-
-        </LinearLayout>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:drawableLeft="@drawable/hongo"
-            android:text="    YO SOLITO PUEDO"
-            android:textColor="#210049" />
-
-        <LinearLayout
-            android:padding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/borde_redondo_blanco"
-                android:padding="15dp"
-
-                android:text="fasfsafafas" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="?"
-                android:background="@drawable/borde_redondo_blanco"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="30dp"
-                android:enabled="false"/>
-
-        </LinearLayout>
-        <LinearLayout
-            android:padding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/borde_redondo_blanco"
-                android:padding="15dp"
-
-                android:text="fasfsafafas" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="?"
-                android:background="@drawable/borde_redondo_blanco"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="30dp"
-                android:enabled="false"/>
-
-        </LinearLayout>
-        <LinearLayout
-            android:padding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/borde_redondo_blanco"
-                android:padding="15dp"
-
-                android:text="fasfsafafas" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="?"
-                android:background="@drawable/borde_redondo_blanco"/>
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="30dp"
-                android:enabled="false"/>
-
-        </LinearLayout>
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="486dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteY="81dp"
-        tools:ignore="MissingConstraints">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:drawableLeft="@drawable/hongo"
-            android:text="    YO SOLITO PUEDO"
-            android:textColor="#210049" />
-
-
-    </LinearLayout>
-
+    </ScrollView>
 
 
 </android.support.constraint.ConstraintLayout>
