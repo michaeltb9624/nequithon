@@ -3,4 +3,11 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_primer__nivel">Primer_Nivel</string>
     <string name="title_activity_conoce_savy">ConoceSavy</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_responder_foro">ResponderForo</string>
+    <string name="title_activity_tutorial">tutorial</string>
+    <string name="title_activity_guia">Guia</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_menu_prin">MenuPrin</string>
+    <string name="title_activity_retos">Retos</string>
 </resources>

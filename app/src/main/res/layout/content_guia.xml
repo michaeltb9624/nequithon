@@ -5,21 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="grimorum.nequithon.MainActivity"
-
-    tools:showIn="@layout/activity_main">
+    tools:context="grimorum.nequithon.Guia"
+    tools:showIn="@layout/activity_guia">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageButton
-            android:id="@+id/explorar"
+            android:id="@+id/flecha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="32dp"
-            android:background="@drawable/botonex"
+            android:background="@drawable/botonflecha"
             />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
