@@ -44,7 +44,7 @@
                 android:gravity="center"
                 android:padding="10dp"
                 android:textColor="#fff"
-                android:text="¿Como invitar a una persona para inciar una meta colaborativa?"
+                android:text="¿Amigos nequinos porque creen que deberia ahorra con nequi?"
                 android:textSize="15dp" />
 
             <TextView

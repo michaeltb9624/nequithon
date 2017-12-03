@@ -23,7 +23,7 @@ public class Foro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_foro);
         bold= Typeface.createFromAsset(getAssets(),"fonts/avenirnextltprobold.otf");
-        regular=Typeface.createFromAsset(getAssets(),"fonts/avenirextltproregular.otf");
+        regular=Typeface.createFromAsset(getAssets(),"fonts/avenirnextltproregular.otf");
         responderForo = findViewById(R.id.responder);
         responderForo2 = findViewById(R.id.responder2);
         titulo = findViewById(R.id.tituloforo);
